@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -13,16 +15,22 @@ header{
     background-color: white;
     height: 7vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    font-family: Verdana;
+    justify-content:space-evenly;
+    font-weight: bold;
+}
+
+.header-link{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 main{
     padding: 10px;
     background-color: rgb(255, 255, 255);
-    color: rgb(19, 78, 38);
+    color: rgb(0, 0, 0);
     font-size: x-large;
     font-weight: bold;
     height: 78vh;
