@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    /* border:1px solid rgb(0, 255, 174); */
+}
+
+body {
+    background-color: black;
+}
+
+/* HEADER */
+
+header{
+    padding: 10px;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    font-weight:600;
+    position: fixed;
+}
+
+.header-link{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.img{
+    width: 7vw;
+    object-fit:contain;
+}
+
+/* CONTEUDO */
+main{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CAMPANHA */
+.imagem-campanha-div{
+    height: auto;
+}
+
+.imagem-campanha{
+    width: 100%;
+    object-fit:contain;
+}
+
+/* QUEM SOMOS */
+.quem-somos{
+    background-position: center;
+    background-size: cover;
+    background-attachment:initial;
+    background-color: white;
+    padding: 1vh 0;
+}
+
+.imagem-quemsomos{
+    width: 100%;
+}
+
+.quem-somos-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    padding: 1vh 3vw;
+}
+
+.quem-somos-descricoes{
+    padding: 4vh 0;
+}
+
+.quem-somos-desc{
+    font-weight: 500;
+    width: 60vw;
+    padding: 1vh 0;
+}
+
+.botao-leia-mais{
+    border-color: transparent;
+    width: 15vw;
+    font-size:medium;
+    font-weight: 600;
+    text-decoration: underline;
+    background-color: #56E79A;
+    padding: 1vh 1vw;
+}
+
+.botao-leia-mais:hover{
+    background-color: gray;
+}
+
+/* WORLD PEACE */
+
+.worldpeaceimg{
+    width: 100%;
+    object-fit:contain;
+}
+
+.section-titulo{
+    font-size: 13vh;
+    font-weight: 900;
+    color: #1D1D1D;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.contact-info-box{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 2vh 0;
+}
+
+.contact-info{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato-icon{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.img-contato{
+    width: 40%;
+    object-fit:contain;
+}
+
+.contato{
+    padding: 3vh 0;
+}
+
+.social-medias{
+    height: 10vh;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-start;
+    align-items: end;
+    padding: 1vh 1vw;
+}
+
+.sm-img{
+    object-fit: contain;
+    height: 4vh;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 680px) {
+    .section-titulo{
+        font-size: 8vh;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    header{
+        font-size: small;
+        height: 7vh;
+        padding: 0;
+    }
+    .header-link{
+        padding: 2px;
+    }
+    .section-titulo{
+        font-size: 10vh;
+        font-weight:900;
+    }
+    .quem-somos-desc{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .section-titulo{
+        font-size: 7vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        font-size:xx-small;
+    }
+    .header-link{
+        padding: 1px;
+    }
+}
