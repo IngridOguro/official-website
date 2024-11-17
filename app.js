@@ -1,6 +1,12 @@
-function scroll_to_left(){
-    console.log('numeroSecreto');
-}
+const navigation = document.querySelector(".primary-navigation");
+
+const navigationHeight = navigation.offsetHeight;
+
+document.documentElement.style.setProperty(
+  "--scroll-padding",
+  navigationHeight + "px"
+);
+
 
 function scrollToEndOfDiv() {
     const left_arrow = document.getElementById("quotes-left-arrow");
