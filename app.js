@@ -18,6 +18,7 @@ function scrollToEndOfDiv() {
         });
     }
     left_arrow.style.visibility = "visible";
+    div.style.visibility = "hidden"
 }
 
 function scrollToStartOfDiv() {
