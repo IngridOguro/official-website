@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --ahtp_branco: #FFFEFF;
+    --ahtp_verde: #56E79A;
+    --ahtp_verde_claro:#7CECB1;
+    --ahtp_textos: #1D1D1D;
+  }
+
 *{
     padding: 0;
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    /* border:1px solid rgb(0, 255, 174); */
 }
 
 body {
@@ -14,7 +21,7 @@ body {
 
 header{
     padding: 10px;
-    background-color: white;
+    background-color: var(--ahtp_branco);
     height: 10vh;
     width: 100vw;
     display: flex;
@@ -28,7 +35,7 @@ header{
 .header-link{
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: var(--ahtp_textos);
 }
 
 .img{
@@ -38,7 +45,8 @@ header{
 
 /* CONTEUDO */
 main{
-    color: rgb(0, 0, 0);
+    padding-top: 10vh;
+    color: var(--ahtp_textos);
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -61,7 +69,7 @@ main{
     background-position: center;
     background-size: cover;
     background-attachment:initial;
-    background-color: white;
+    background-color: var(--ahtp_branco);
     padding: 1vh 0;
 }
 
@@ -83,6 +91,7 @@ main{
 
 .quem-somos-desc{
     font-weight: 500;
+    font-style: italic;
     width: 60vw;
     padding: 1vh 0;
 }
@@ -93,7 +102,7 @@ main{
     font-size:medium;
     font-weight: 600;
     text-decoration: underline;
-    background-color: #56E79A;
+    background-color: var(--ahtp_verde);
     padding: 1vh 1vw;
 }
 
@@ -111,13 +120,174 @@ main{
 .section-titulo{
     font-size: 13vh;
     font-weight: 900;
-    color: #1D1D1D;
+    color: var(--ahtp_textos);
 }
 
 .section{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* PREMIOS */
+.premios{
+    background-color: var(--ahtp_branco);
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+}
+
+.premios-img-div{
+    padding: 2vh 0;
+}
+
+.premios-titulo{
+    font-weight: 500;
+    font-size: 4vh;
+    font-style: italic;
+}
+
+/* NUMERO */
+.numeros{
+    background-color: var(--ahtp_verde);
+    width: 100%;
+    padding: 10vh 0 10vh 0;
+}
+
+.numeros-cards-div{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.numeros-cards{
+    background-color: var(--ahtp_branco);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10vh 0 5vh 0;
+}
+
+.numero-cards-simbolo{
+    font-size: 5vw;
+    font-weight: 500;
+    color:var(--ahtp_textos);
+}
+
+.numero-cards-valor{
+    font-size: 5vw;
+    font-weight: 900;
+    color:var(--ahtp_textos);
+}
+
+.numero-cards-desc{
+    padding-top: 1vh;
+    font-size:x-large;
+    font-weight: 600;
+    font-style: italic;
+    color:var(--ahtp_textos);
+}
+
+/* QUOTES */
+.quotes{
+    background-image: linear-gradient(
+        to right, var(--ahtp_verde_claro) , var(--ahtp_branco));
+    display: flex;
+}
+
+/* Quotes esquerda */
+.quotes-left{
+    width: 99%;
+    overflow-y: hidden;
+}
+
+.quotes-left::-webkit-scrollbar{
+    width: 0;
+}
+
+.quotes-scrollable{
+    width: 170vw;
+    display: flex;
+    padding-left: 2vw;
+}
+
+
+.quotes-card{
+    margin-right: 2px;
+    border: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 4vh 2vw;
+    width: 33vw;
+    height: 65vh;
+    color: var(--ahtp_textos)
+}
+
+/* Quotes direita */
+.quotes-right{
+    background-color:transparent;
+    display: flex;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    height: 75%;
+}
+
+.quotes-left-arrow{
+    background-color:transparent;
+    visibility: hidden;
+    display: flex;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    height: 75%;
+}
+
+.quotes-img{
+    object-fit:contain;
+    width: 2vw;
+}
+
+.quotes-img-left{
+    object-fit:contain;
+    width: 2vw;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.quotes-button{
+    border: transparent;
+    background-color: transparent;
+}
+
+.quotes-icon{
+    font-size: 5vw;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.quotes-desc{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    padding:3vh 0;
+}
+
+.quotes-by{
+    font-size: 2vw;
+    font-weight: 500;
 }
 
 /* FOOTER */
@@ -151,6 +321,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content:center;
+    align-items: center;
 }
 
 .img-contato{
@@ -179,27 +350,75 @@ footer{
 }
 
 /* RESPONSIVIDADE */
-@media screen and (max-width: 680px) {
-    .section-titulo{
-        font-size: 8vh;
+
+@media screen and (max-width: 1069px) {
+    .numero-cards-desc{
+        font-size: 3vh;
+    }
+    .quotes-card{
+        width: 50vw;
+    }
+    .quotes-scrollable{
+        width: 250vw;
+    }
+}
+/* @media screen and(max-width: 990px){
+
+} */
+
+@media screen and (max-width: 770px) {
+    .social-medias{
+        width: 80%;
+    }
+
+    .numero-cards-desc{
+        font-size: 2vh;
+    }
+
+    .quotes-card{
+        width: 80vw;
+        font-size: 20px;
+    }
+
+    .quotes-scrollable{
+        width: 400vw;
     }
 }
 
 @media screen and (max-width: 680px) {
+    main{
+        padding-top: 7vh;
+    }
+
     header{
         font-size: small;
         height: 7vh;
         padding: 0;
     }
+
     .header-link{
         padding: 2px;
     }
+
     .section-titulo{
         font-size: 10vh;
         font-weight:900;
     }
+
     .quem-somos-desc{
         width: 100%;
+    }
+
+    .quotes-card{
+        width: 95vw;
+        font-size: 10px;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 582px){
+    .botao-leia-mais{
+        width: 20vw;
     }
 }
 
@@ -207,13 +426,47 @@ footer{
     .section-titulo{
         font-size: 7vh;
     }
+
+    .numeros{
+        padding: 5vh 0 5vh 0;
+    }
+
+    .numeros-cards{
+        padding: 5vh 0 2vh 0;
+    }
+    
+    .quotes-right{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contato-icon{
+        display: none
+    }
+    .contact-info{
+        width: 100%;
+        padding-left: 3vw;
+    }
+    .numero-cards-desc{
+        font-size:xx-small;
+    }
 }
 
 @media screen and (max-width: 400px) {
     header{
         font-size:xx-small;
     }
+
     .header-link{
         padding: 1px;
+    }
+
+    .social-medias{
+        width: 90%;
+    }
+
+    .quotes-desc{
+        font-size: 15px;
     }
 }
