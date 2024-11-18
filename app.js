@@ -10,6 +10,7 @@ document.documentElement.style.setProperty(
 
 function scrollToEndOfDiv() {
     const left_arrow = document.getElementById("quotes-left-arrow");
+    const right_arrow = document.getElementById("quotes-right");
     const div = document.getElementById("quotes-left");
     if (div) {
         div.scrollTo({
@@ -18,10 +19,12 @@ function scrollToEndOfDiv() {
         });
     }
     left_arrow.style.visibility = "visible";
-    div.style.visibility = "hidden"
+    right_arrow.style.visibility = "hidden";
 }
 
 function scrollToStartOfDiv() {
+    const left_arrow = document.getElementById("quotes-left-arrow");
+    const right_arrow = document.getElementById("quotes-right");
     const div = document.getElementById("quotes-left");
     if (div) {
         div.scrollTo({
@@ -29,4 +32,6 @@ function scrollToStartOfDiv() {
             behavior: "smooth"
         });
     }
+    left_arrow.style.visibility = "hidden";
+    right_arrow.style.visibility = "visible";
 }
