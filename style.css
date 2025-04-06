@@ -264,6 +264,8 @@ footer{
     }
     #quem-somos{
         width: 100vw;
+        height: auto;
+        margin: 2vh 0 3vh 1vh;
     }
     #quem-somos p{
         font-weight: 900;
