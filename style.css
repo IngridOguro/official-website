@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* html > *{
+    border:red;
+    border-style: solid; 
+} */
+
 html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
@@ -13,7 +18,7 @@ html {
 }
 
 body{
-    background-color: var(--ahtp_branco);
+    background-color: var(--ahtp_branco); 
     font-family: "Montserrat", sans-serif;
 }
 
@@ -36,11 +41,24 @@ body{
 }
 
 /* QUEM SOMOS */
-#quem-somos p{
+#section-title{
     font-weight: 900;
     font-size: 9vw;
     color: var(--ahtp_textos);
 }
+
+.quem-somos-txt
+{
+    width: 80%;
+    height: 85%;
+}
+
+.quem-somos-txt-desc{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
 
 #quem-somos a{
     font-size: 4vh !important;
@@ -49,8 +67,13 @@ body{
 }
 
 #quem-somos{
-    width: 75vw;
+    width: 100vw;
     height:max-content;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding-left: 1vw;
 }
 
 #quem-somos-bg{
@@ -68,7 +91,8 @@ body{
 #world-peace-forum{
     background-color: var(--ahtp_verde_claro);
     display: flex;
-    width: 100vw !important;
+    width: 98.9vw !important;
+    object-fit: contain;
 }
 
 #world-peace-forum-bg{
@@ -76,7 +100,7 @@ body{
     margin: 0;
     background-image: url(/images/worldpeaceforum.png);
     background-attachment: fixed;
-    background-size: auto 103%;
+    background-size: auto 103% ;
     background-repeat: no-repeat;
     background-position: left;
 }
