@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* html > *{
+    border:red;
+    border-style: solid; 
+} */
+
 html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
@@ -12,8 +17,13 @@ html {
     --ahtp_textos: #1D1D1D;
 }
 
+header{
+    background-color: #56E79A;
+}
+
+
 body{
-    background-color: var(--ahtp_branco);
+    background-color: var(--ahtp_branco); 
     font-family: "Montserrat", sans-serif;
 }
 
@@ -36,11 +46,25 @@ body{
 }
 
 /* QUEM SOMOS */
-#quem-somos p{
+#section-title{
     font-weight: 900;
     font-size: 9vw;
     color: var(--ahtp_textos);
 }
+
+.quem-somos-txt
+{
+    width: 80%;
+    height: 85%;
+}
+
+.quem-somos-txt-desc{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 #quem-somos a{
     font-size: 4vh !important;
@@ -49,8 +73,13 @@ body{
 }
 
 #quem-somos{
-    width: 75vw;
+    width: 98vw;
     height:max-content;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinha verticalmente ao centro */
+    padding-left: 1.5vw;
 }
 
 #quem-somos-bg{
@@ -68,7 +97,8 @@ body{
 #world-peace-forum{
     background-color: var(--ahtp_verde_claro);
     display: flex;
-    width: 100vw !important;
+    width: 98.8vw !important;
+    object-fit: contain;
 }
 
 #world-peace-forum-bg{
@@ -76,7 +106,7 @@ body{
     margin: 0;
     background-image: url(/images/worldpeaceforum.png);
     background-attachment: fixed;
-    background-size: auto 103%;
+    background-size: auto 103% ;
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -88,6 +118,11 @@ body{
     align-items: center;
     padding: 3vh 0;
     background-color: var(--ahtp_branco);
+    height:45vh
+}
+
+#bemfeitoria img{
+    height: 38%;
 }
 
 #bemfeitoria p{
@@ -124,7 +159,7 @@ color: var(--ahtp_branco);
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 }
 
@@ -134,24 +169,21 @@ color: var(--ahtp_branco);
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10vh 0 5vh 0;
-}
-
-.numero-cards-simbolo{
-    font-size: 5vw;
-    font-weight: 500;
-    color:var(--ahtp_textos);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 35vh;
 }
 
 .numero-cards-valor{
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 900;
     color:var(--ahtp_textos);
 }
 
 .numero-cards-desc{
     padding-top: 1vh;
-    font-size:x-large;
+    font-size: 1.5vw;
     font-weight: 600;
     font-style: italic;
     color:var(--ahtp_textos);
@@ -162,6 +194,7 @@ color: var(--ahtp_branco);
 .section-titulo{
     font-weight: 900;
     font-size: 9vw;
+    line-height: 0.97
 }
 
 footer{
@@ -223,7 +256,7 @@ footer{
     height: 4vh;
 }
 
-#carouselExample{
+#naMidia{
     background-color: black;
 }
 .materia_div{
@@ -240,6 +273,8 @@ footer{
     }
     #quem-somos{
         width: 100vw;
+        height: auto;
+        margin: 2vh 0 3vh 1vh;
     }
     #quem-somos p{
         font-weight: 900;
@@ -332,7 +367,7 @@ footer{
         color: var(--ahtp_textos);
     }
 
-    .section3{
+    .impact{
         display: flex;
         justify-content: center;
         align-content: center;
