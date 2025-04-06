@@ -112,6 +112,11 @@ body{
     align-items: center;
     padding: 3vh 0;
     background-color: var(--ahtp_branco);
+    height:45vh
+}
+
+#bemfeitoria img{
+    height: 38%;
 }
 
 #bemfeitoria p{
