@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* html > *{
+    border:red;
+    border-style: solid; 
+} */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+    }
+
+:root {
+    --ahtp_branco: #FFFEFF;
+    --ahtp_verde: #56E79A;
+    --ahtp_verde_claro:#7CECB1;
+    --ahtp_textos: #1D1D1D;
+}
+
+body{
+    background-color: var(--ahtp_branco); 
+    font-family: "Montserrat", sans-serif;
+}
+
+.ahtp-text{
+    color: var(--ahtp_textos) !important;
+}
+
+main{
+    display: flex;
+    flex-direction:  column; 
+    padding-top: 2vh;
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 1%, #56E79A 15%);
+}
+
+/* SOBRE */
+#sobre{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 20vh;
+    text-decoration: none;
+    color: var(--ahtp_textos);
+    margin: 1vh 2vw;
+}
+
+.titulo{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 9vh;
+    text-decoration: none;
+    color: var(--ahtp_textos);
+}
+
+.titulo-area{
+    /* border: var(--ahtp_verde_claro);
+    border-width: 5px;
+    border-style: solid; */
+    padding: 2vh 5vw;
+}
+
+.secao{
+    /* background-color: var(--ahtp_branco); */
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline ;
+    padding: 3vh 1vw;
+}
+
+#help{
+    background-color: white;
+    padding: 20vh 0;
+}
+
+.titulo-secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+.titulo-div{
+    width: 50%;
+    padding: 1vh 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.logo{
+    width: 50%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-div{
+    width: 100%;
+    text-align: start;
+    display: flex;
+    justify-content:right;
+    padding: 1vh 1vw;
+}
+
+.texto-area{
+    /* background-color: violet; */
+    width: 60%;
+    padding: 1vh 1vw;
+}
+
+.texto{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 5vh;
+    text-decoration: none;
+    color: var(--ahtp_textos);
+}
+
+.img{
+    object-fit: fill;
+    height: 90%;
+    width: auto;
+}
+
+.section-titulo{
+    font-weight: 900;
+    font-size: 9vw;
+    line-height: 0.97
+}
+
+#army_img, #theplanet_img{
+    filter: brightness(0); 
+}
+
+/* #texto-army{
+    background-color: #D880E5;
+}
+
+#texto-help{
+    background-color: #56C3E7;
+}
+
+#texto-planet{
+    background-color: #6756E7;
+} */
+
