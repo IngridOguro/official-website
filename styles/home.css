@@ -21,10 +21,10 @@ header{
     background-color: #56E79A;
 }
 
-body{
-    background-color: var(--ahtp_branco); 
+/* body{
     font-family: "Montserrat", sans-serif;
-}
+    padding-top: 2vh;
+} */
 
 #navbar{
     background-color: var(--ahtp_branco) !important;
@@ -36,7 +36,7 @@ body{
 
 /* CCXP */
 .imagem-ccxp-div{
-    padding-top: 1vh;
+    /* padding-top: 1vh; */
     height: auto;
 }
 
@@ -77,13 +77,15 @@ body{
 }
 
 #quem-somos{
-    width: 98vw;
+    /* width: 98vw; */
     height:max-content;
-    height: 95vh;
+    /* height: 95vh; */
     display: flex;
     flex-direction: row;
     align-items: center; /* Alinha verticalmente ao centro */
-    padding-left: 1.5vw;
+    padding-left: 2vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
     background-color: white;
 }
 
@@ -211,55 +213,7 @@ footer{
     padding: 2vh 0;
 }
 
-.contact-info-box{
-    background-color: var(--ahtp_branco);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    padding: 2vh 0;
-}
 
-.contact-info{
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contato-icon{
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-}
-
-.img-contato{
-    width: 40%;
-    object-fit:contain;
-}
-
-.contato{
-    padding: 3vh 0;
-    font-size: 3vh;
-}
-
-.social-medias{
-    height: 10vh;
-    width: 65%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-self: flex-start;
-    align-items: end;
-    padding: 1vh 1vw;
-}
-
-.sm-img{
-    object-fit: contain;
-    height: 4vh;
-}
 
 #naMidia{
     background-color: black;
@@ -277,7 +231,7 @@ footer{
         height: 50vh;
     }
     #quem-somos{
-        width: 100vw;
+        /* width: 100vw; */
         height: auto;
         margin: 2vh 0 3vh 1vh;
     }
@@ -326,47 +280,21 @@ footer{
         font-size: 3vh;
     }
 
-    .contact-info-box{
-        flex-direction: column;
-    }
-
-    .contact-info{
-        width: 100%;
-        padding: 5vh;
-    }
-
-    .social-medias{
-        width: 100%;
-    }
-
-    .contato-icon{
-        width: 100%;
-        padding: 4vh;
-    }
-
-    .materia_div{
-        background: black;
-        padding: 0;
-        width: 99%;
-        justify-self: center;
-    }
-
-    .contato{
-        padding: 3vh 0;
-        font-size: 2vh;
-    }
+    
 }
 
 @media (min-width:  768px) and (max-width: 992px){
-.imagem-ccxp-div{
-    padding-top: 2vh;
-}
+/* .imagem-ccxp-div{
+    padding-top: 3vh;
+    background-color: #56E79A;
+} */
 }
 
 @media (min-width: 480px) and (max-width: 768px){
-    .imagem-ccxp-div{
-        padding-top: 5vh;
-    }
+    /* .imagem-ccxp-div{
+        padding-top: 4vh;
+        background-color: yellow;
+    } */
 
     #quem-somos-bg{
         height: 50vh;
