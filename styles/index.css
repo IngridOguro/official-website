@@ -5,15 +5,16 @@
     padding:0;
 }
 
-/* html > *{
+html > *{
     border:red;
     border-style: solid; 
-} */
+}
 
 html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
     height:100vh;
+    width: 100vw;
     overflow-x: hidden;
     }
 
@@ -38,8 +39,122 @@ html {
 #app{
     display: flex;
     flex-direction:  column; 
-    width: 100vw;
-    height: 87vh;
+    /* width: 100vw; */
+    /* height: 87vh; */
     margin-top: 10vh;
     /* background-color: rgb(8, 0, 253); */
+}
+
+.section-titulo{
+    font-weight: 900;
+    font-size: 9vw;
+    line-height: 0.97
+}
+
+footer{
+    background-color: var(--ahtp_branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.contact-info-box{
+    background-color: var(--ahtp_branco);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 2vh 0;
+}
+
+.contact-info{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato-icon{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.img-contato{
+    width: 40%;
+    object-fit:contain;
+}
+
+.contato{
+    padding: 3vh 0;
+    font-size: 3vh;
+}
+
+.social-medias{
+    height: 10vh;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-start;
+    align-items: end;
+    padding: 1vh 1vw;
+}
+
+.sm-img{
+    object-fit: contain;
+    height: 4vh;
+}
+
+@media (min-width:  768px) and (max-width: 992px){
+    body{
+        padding-top: 3vh;
+        width: 100;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    body{
+        padding-top: 4vh;
+        background-color: blue;
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 480px){
+    .contact-info-box{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        width: 100%;
+        padding: 5vh;
+    }
+
+    .social-medias{
+        width: 100%;
+    }
+
+    .contato-icon{
+        width: 100%;
+        padding: 4vh;
+    }
+
+    .materia_div{
+        background: black;
+        padding: 0;
+        width: 99%;
+        justify-self: center;
+    }
+
+    .contato{
+        padding: 3vh 0;
+        font-size: 2vh;
+    }
 }
