@@ -5,10 +5,10 @@
     border-style: solid; 
 } */
 
-html {
+/* html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
-    }
+    } */
 
 :root {
     --ahtp_branco: #FFFEFF;
@@ -18,7 +18,6 @@ html {
 }
 
 body{
-    background-color: var(--ahtp_branco); 
     font-family: "Montserrat", sans-serif;
 }
 
@@ -30,7 +29,7 @@ main{
     display: flex;
     flex-direction:  column; 
     padding-top: 2vh;
-    background-color: #ffffff;
+    background-color: blue;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 1%, #56E79A 15%);
 }
 
@@ -42,6 +41,7 @@ main{
     text-decoration: none;
     color: var(--ahtp_textos);
     margin: 1vh 2vw;
+    /* width: 100%; */
 }
 
 .titulo{
