@@ -37,34 +37,38 @@ main{
 #sobre{
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 20vh;
+    font-size: 13vh;
     text-decoration: none;
     color: var(--ahtp_textos);
-    margin: 1vh 2vw;
+    padding: 7vh 2vw;
+    text-align: center;
     /* width: 100%; */
 }
 
 .titulo{
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 9vh;
+    font-size: 13vh;
     text-decoration: none;
     color: var(--ahtp_textos);
 }
 
-.titulo-area{
-    /* border: var(--ahtp_verde_claro);
+/* .titulo-area{
+    border: var(--ahtp_verde_claro);
     border-width: 5px;
-    border-style: solid; */
+    border-style: solid;
     padding: 2vh 5vw;
-}
+} */
 
 .secao{
     /* background-color: var(--ahtp_branco); */
     display: flex;
     flex-direction: column;
-    justify-content: baseline ;
+    justify-content: center ;
+    align-items: center;
+    align-content: center;
     padding: 3vh 1vw;
+    height:94vh;
 }
 
 #help{
@@ -74,25 +78,25 @@ main{
 
 .titulo-secao{
     display: flex;
+    width: 100%;
     flex-direction: row;
-    justify-content: center ;
+    align-items: center;
 }
 
 .titulo-div{
-    width: 50%;
     padding: 1vh 0 ;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    /* background-color: green; */
 }
 
 .logo{
-    width: 50%;
-    height: 20vh;
+    /* width: 50%; */
+    height: 16vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 10vw;
 }
 
 .texto-div{
@@ -104,17 +108,17 @@ main{
 }
 
 .texto-area{
-    /* background-color: violet; */
-    width: 60%;
-    padding: 1vh 1vw;
+    width: 68%;
+    margin-right: 8vw;
 }
 
 .texto{
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 5vh;
+    font-size: 6vh;
     text-decoration: none;
     color: var(--ahtp_textos);
+    text-align: justify;
 }
 
 .img{
