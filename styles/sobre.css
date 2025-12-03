@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* html > *{
-    border:red;
-    border-style: solid; 
+/* *{
+    border: red;
+    border-style: solid;
+    border-width: 1px;
 } */
-
-/* html {
-    scroll-behavior: smooth;
-    scroll-padding: var(--scroll-padding, 5rem);
-    } */
 
 :root {
     --ahtp_branco: #FFFEFF;
@@ -17,40 +13,61 @@
     --ahtp_textos: #1D1D1D;
 }
 
-body{
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+    }
+
+body {
     font-family: "Montserrat", sans-serif;
 }
 
-.ahtp-text{
-    color: var(--ahtp_textos) !important;
-}
-
-main{
+main {
     display: flex;
     flex-direction:  column; 
-    padding-top: 2vh;
+    /* padding-top: 2vh; */
     background-color: blue;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 1%, #56E79A 15%);
 }
 
-/* SOBRE */
-#sobre{
+/* PAGINA SOBRE */
+
+#sobrenos {
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 13vh;
+    font-size: 12vh;
     text-decoration: none;
     color: var(--ahtp_textos);
-    padding: 7vh 2vw;
+    /* padding: 5vh 2vw; */
     text-align: center;
     /* width: 100%; */
 }
 
-.titulo{
-    font-family: Montserrat;
-    font-weight: 800;
-    font-size: 13vh;
-    text-decoration: none;
-    color: var(--ahtp_textos);
+/* <!-- SEÇÃO NOSSO NOME E LOGO --> */
+
+.section{
+    /* background-color: var(--ahtp_branco); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    align-content: center;
+    /* padding: 1vh 1vw; */
+    height:91vh;
+}
+
+.titulo-secao {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titulo-div {
+    /* padding: 1vh 0 ; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 /* .titulo-area{
@@ -58,39 +75,42 @@ main{
     border-width: 5px;
     border-style: solid;
     padding: 2vh 5vw;
-} */
+}  */
 
-.secao{
-    /* background-color: var(--ahtp_branco); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    align-items: center;
-    align-content: center;
-    padding: 3vh 1vw;
-    height:94vh;
+.titulo{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 10vh;
+    text-decoration: none;
+    color: var(--ahtp_textos);
 }
 
-#help{
-    background-color: white;
-    padding: 20vh 0;
-}
 
-.titulo-secao{
-    display: flex;
+
+.descricao-div {
     width: 100%;
-    flex-direction: row;
-    align-items: center;
-}
-
-.titulo-div{
-    padding: 1vh 0 ;
+    text-align: start;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content:right;
+    /* padding: 1vh 1vw; */
 }
 
-.logo{
+.descricao-area {
+    width: 68%;
+    padding-right: 10vw;
+}
+
+.texto{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 5vh;
+    text-decoration: none;
+    color: var(--ahtp_textos);
+    text-align: justify;
+}
+
+/* LOGO */
+.logo {
     /* width: 50%; */
     height: 16vh;
     display: flex;
@@ -99,43 +119,59 @@ main{
     margin: 0 10vw;
 }
 
-.texto-div{
-    width: 100%;
-    text-align: start;
-    display: flex;
-    justify-content:right;
-    padding: 1vh 1vw;
-}
-
-.texto-area{
-    width: 68%;
-    margin-right: 8vw;
-}
-
-.texto{
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 6vh;
-    text-decoration: none;
-    color: var(--ahtp_textos);
-    text-align: justify;
-}
-
-.img{
+.img {
     object-fit: fill;
     height: 90%;
     width: auto;
 }
 
-.section-titulo{
+#army_img, #theplanet_img {
+    filter: brightness(0); 
+}
+
+/* ARMY */
+#army{
+    height: 72vh !important; 
+}
+
+
+/* HELP */
+
+#help {
+    background-color: white;
+    padding: 20vh 0;
+}
+
+
+#help .descricao-div {
+    display: flex;
+    justify-content: left;
+}
+
+#help .descricao-area {
+    width: 68%;
+    text-align: start;
+    display: flex;
+    color: #56E79A;
+    background-color: #56E79A;
+    padding-left: 10vw;
+}
+
+#help .titulo-secao {
+    justify-content: right;
+}
+
+/* -------------------------- */
+
+
+
+/* .section-titulo{
     font-weight: 900;
     font-size: 9vw;
     line-height: 0.97
-}
+} */
 
-#army_img, #theplanet_img{
-    filter: brightness(0); 
-}
+
 
 /* #texto-army{
     background-color: #D880E5;
