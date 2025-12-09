@@ -35,8 +35,7 @@ header{
 }
 
 /* CCXP */
-.imagem-ccxp-div{
-    /* padding-top: 1vh; */
+/* .imagem-ccxp-div{
     height: auto;
 }
 
@@ -47,7 +46,7 @@ header{
 .imagem-ccxp{
     width: 100%;
     object-fit:contain;
-}
+} */
 
 /* QUEM SOMOS */
 #section-title{
@@ -221,6 +220,13 @@ footer{
 .materia_div{
     background: black;
     padding: 0 25vw;
+    width: 90%;
+    justify-self: center;
+}
+
+.banner_div{
+    background: rgb(221, 92, 92);
+    padding: 0 0;
     width: 90%;
     justify-self: center;
 }
