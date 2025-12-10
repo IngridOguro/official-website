@@ -4,7 +4,8 @@ const routes = {
     '/home': '/views/home.html',
     '/about': '/views/about.html',
     '/sobre': '/views/sobre.html',
-    '/404': '/views/404.html'
+    '/404': '/views/404.html',
+    '/index.html': '/views/home.html',
 };
 
 // Cache para páginas já carregadas
