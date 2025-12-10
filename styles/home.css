@@ -212,11 +212,10 @@ footer{
     padding: 2vh 0;
 }
 
-
-
 #naMidia{
     background-color: black;
 }
+
 .materia_div{
     background: black;
     padding: 0 25vw;
@@ -224,12 +223,51 @@ footer{
     justify-self: center;
 }
 
+#banner, #naMidia{
+    padding: 2vh;
+}
+
 .banner_div{
-    background: rgb(221, 92, 92);
+    /* background: rgb(221, 92, 92); */
     padding: 0 0;
     width: 90%;
     justify-self: center;
 }
+
+.carousel-control-prev, .carousel-control-next,.carousel-indicators{
+mix-blend-mode: difference !important;
+}
+
+.carousel-control-prev img, .carousel-control-next img{
+ height: 5vh;
+ filter: brightness(200%);
+}
+
+.carousel-control-prev img{
+ rotate: 180deg;
+}
+/* .carousel-control{
+    color: white !important;
+    font-size: 10vh;
+    text-decoration: none;
+} */
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+    /* height: 7vh;
+    width: auto; */
+}
+
+/* .carousel-control-prev-icon{
+    rotate: 180deg;
+}
+
+.carousel-control-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    color: inherit;
+} */
 
 @media (max-width: 480px) {
     /* QUEM SOMOS */
