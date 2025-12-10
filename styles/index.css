@@ -35,6 +35,10 @@ html {
     background-color: var(--ahtp_branco) !important;
 }
 
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
 
 #app{
     display: flex;
