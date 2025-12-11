@@ -18,15 +18,6 @@ html {
     --ahtp_textos: #1D1D1D;
 }
 
-header{
-    background-color: #56E79A;
-}
-
-/* body{
-    font-family: "Montserrat", sans-serif;
-    padding-top: 2vh;
-} */
-
 #navbar{
     background-color: var(--ahtp_branco) !important;
 }
@@ -60,20 +51,6 @@ mix-blend-mode: difference !important;
  rotate: 180deg;
 }
 
-/* CCXP */
-/* .imagem-ccxp-div{
-    height: auto;
-}
-
-.imagem-ccxp:hover{
-    box-shadow: 10px 5px 5px var(--ahtp_textos);
-}
-
-.imagem-ccxp{
-    width: 100%;
-    object-fit:contain;
-} */
-
 /* QUEM SOMOS */
 #section-title{
     font-weight: 900;
@@ -98,7 +75,7 @@ mix-blend-mode: difference !important;
     font-size: 3.7vh !important;
     text-decoration: none;
     color: var(--ahtp_textos);
-    /* font-family: "Montserrat", sans-serif; */
+    text-align: justify;
 }
 
 #quem-somos{
@@ -170,14 +147,11 @@ mix-blend-mode: difference !important;
     color: var(--ahtp_textos);
     background-color: var(--ahtp_branco);
     border: none;
-    /* height: 7vh;
-    width: 11vw; */
     padding: 1vh 1vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 10, 0.231);
 }
 
 #bemfeitoria button:hover{
-/* color: var(--ahtp_branco); */
 color: var(--ahtp_branco);
 background-color: var(--ahtp_verde);
 }
@@ -189,8 +163,6 @@ background-color: var(--ahtp_verde);
     align-items: center;
     background-color: var(--ahtp_verde);
     width: 100%;
-    /* height: 90vh; */
-    /* margin-top: 100vh; */
     padding: 15vh 0 ;
 }
 
@@ -217,7 +189,6 @@ background-color: var(--ahtp_verde);
     justify-content: center;
     justify-items: center;
     align-items: center;
-    /* height: 45vh; */
 }
 
 .numero-cards-valor{
@@ -235,7 +206,7 @@ background-color: var(--ahtp_verde);
     color:var(--ahtp_textos);
 }
 
-/* contato */
+/* CONTATO */
 
 .section-titulo{
     font-weight: 900;
@@ -252,50 +223,50 @@ footer{
     padding: 2vh 0;
 }
 
+/* NA MIDIA */
+
 #naMidia{
     background-color: black;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 .materia_div{
-    background: black;
     padding: 0 25vw;
-    width: 90%;
+    width: 95%;
     justify-self: center;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 
-/* .carousel-control{
-    color: white !important;
-    font-size: 10vh;
-    text-decoration: none;
-} */
+.materia_div a{
+    width: 100vw;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.materia_div img{
+    width: 100% !important;
+        max-width: 100% !important;
+    max-height: 100% !important;
+}
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-image: none;
-    /* height: 7vh;
-    width: auto; */
 }
-
-/* .carousel-control-prev-icon{
-    rotate: 180deg;
-}
-
-.carousel-control-img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain !important;
-    color: inherit;
-} */
 
 @media (max-width: 480px) {
-    /* QUEM SOMOS */
+    
+/* QUEM SOMOS */
     #quem-somos-bg{
         height: 70vh;
     }
     #quem-somos{
-        /* width: 100vw; */
         height: auto;
-        /* margin: 2vh 0 3vh 1vh; */
         padding:  2vh 0 3vh 1vh;
     }
     #quem-somos p{
@@ -343,22 +314,17 @@ footer{
         font-size: 3vh;
     }
 
+    .materia_div{
+        padding: 0 1vw;
+    }
     
 }
 
-@media (min-width:  768px) and (max-width: 992px){
-/* .imagem-ccxp-div{
-    padding-top: 3vh;
-    background-color: #56E79A;
+/* @media (min-width:  768px) and (max-width: 992px){
+
 } */
-}
 
 @media (min-width: 480px) and (max-width: 768px){
-    /* .imagem-ccxp-div{
-        padding-top: 4vh;
-        background-color: yellow;
-    } */
-
     #quem-somos-bg{
         height: 50vh;
     }
@@ -381,7 +347,6 @@ footer{
     }
 
     .numeros-cards{
-        /* width: 50%; */
         margin: 2vh;
         padding: 5vh 2vw;
     }
@@ -394,19 +359,6 @@ footer{
         font-size: 5vh;
     }
 
-
-    /* .numeros-cards{
-    background-color: var(--ahtp_branco);
-    padding: 7vh 3vw;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-
-} */
-
     .numeros-cards-div{
         width: 100%;
         display: flex;
@@ -418,8 +370,12 @@ footer{
         padding:0;
     }
 
-    /* .numero-cards-simbolo{
-        font-size: 4vh;
-    } */
+    .materia_div{
+            padding: 0 3vw;
+    }
+
+    .carousel-control-next img,.carousel-control-prev img{
+        height: 5vh;
+    }
 
 }
