@@ -5,6 +5,8 @@
     padding:0;
 }
 
+
+
 /* html > *{
     border:red;
     border-style: solid; 
@@ -15,7 +17,7 @@ html {
     scroll-padding: var(--scroll-padding, 5rem);
     height:100vh;
     width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     }
 
 :root {
@@ -26,17 +28,18 @@ html {
 }
 
 
-/* body{
+body{
     background-color: var(--ahtp_branco); 
     font-family: "Montserrat", sans-serif;
-} */
+    max-width: 100%;
+}
 
 #navbar{
     background-color: var(--ahtp_branco) !important;
 }
 
 .nav-link{
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     color: black;
 }
 
@@ -46,6 +49,7 @@ html {
     /* width: 100vw; */
     /* height: 87vh; */
     margin-top: 10vh;
+    max-width: 100%;
     /* background-color: rgb(8, 0, 253); */
 }
 
