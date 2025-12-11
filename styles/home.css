@@ -34,6 +34,31 @@ header{
     color: var(--ahtp_textos) !important;
 }
 
+
+#banner, #naMidia{
+    padding: 2vh;
+}
+
+.banner_div{
+    background: rgb(221, 92, 92);
+    padding: 0 0;
+    width: 90%;
+    justify-self: center;
+}
+
+.carousel-control-prev, .carousel-control-next,.carousel-indicators{
+mix-blend-mode: difference !important;
+}
+
+.carousel-control-prev img, .carousel-control-next img{
+ height: 5vh;
+ filter: brightness(200%);
+}
+
+.carousel-control-prev img{
+ rotate: 180deg;
+}
+
 /* CCXP */
 /* .imagem-ccxp-div{
     height: auto;
@@ -58,7 +83,6 @@ header{
 .quem-somos-txt
 {
     width: 80%;
-    height: 85%;
 }
 
 .quem-somos-txt-desc{
@@ -70,22 +94,19 @@ header{
 
 
 #quem-somos a{
-    font-size: 4vh !important;
+    font-size: 3.7vh !important;
     text-decoration: none;
     color: var(--ahtp_textos);
+    font-family: "Montserrat", sans-serif;
 }
 
 #quem-somos{
-    /* width: 98vw; */
-    height:max-content;
-    /* height: 95vh; */
+    height: 95vh;
     display: flex;
     flex-direction: row;
-    align-items: center; /* Alinha verticalmente ao centro */
-    padding-left: 2vw;
-    padding-top: 8vh;
-    padding-bottom: 10vh;
-    background-color: white;
+    align-items: center; 
+    padding-left: 5vw;
+    padding-bottom: 8vh;
 }
 
 #quem-somos-bg{
@@ -223,29 +244,7 @@ footer{
     justify-self: center;
 }
 
-#banner, #naMidia{
-    padding: 2vh;
-}
 
-.banner_div{
-    /* background: rgb(221, 92, 92); */
-    padding: 0 0;
-    width: 90%;
-    justify-self: center;
-}
-
-.carousel-control-prev, .carousel-control-next,.carousel-indicators{
-mix-blend-mode: difference !important;
-}
-
-.carousel-control-prev img, .carousel-control-next img{
- height: 5vh;
- filter: brightness(200%);
-}
-
-.carousel-control-prev img{
- rotate: 180deg;
-}
 /* .carousel-control{
     color: white !important;
     font-size: 10vh;
@@ -272,12 +271,14 @@ mix-blend-mode: difference !important;
 @media (max-width: 480px) {
     /* QUEM SOMOS */
     #quem-somos-bg{
-        height: 50vh;
+        height: 70vh;
     }
     #quem-somos{
         /* width: 100vw; */
         height: auto;
-        margin: 2vh 0 3vh 1vh;
+        /* margin: 2vh 0 3vh 1vh; */
+        padding:  2vh 0 3vh 1vh;
+        background-color: purple !important;
     }
     #quem-somos p{
         font-weight: 900;
