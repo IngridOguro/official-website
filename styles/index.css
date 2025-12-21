@@ -48,7 +48,7 @@ body{
     flex-direction:  column; 
     /* width: 100vw; */
     /* height: 87vh; */
-    margin-top: 10vh;
+    padding-top: 14vh;
     max-width: 100%;
     /* background-color: rgb(8, 0, 253); */
 }

@@ -28,13 +28,13 @@ html {
 
 
 #banner, #naMidia{
-    padding: 2vh;
+    /* padding: 2vh; */
 }
 
 .banner_div{
-    background: rgb(221, 92, 92);
+    /* background: rgb(221, 92, 92); */
     padding: 0 0;
-    width: 90%;
+    width: 100%;
     justify-self: center;
 }
 
