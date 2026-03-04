@@ -1,5 +1,6 @@
 import { Header } from '../../components/Header/Header.js';
 import {Banner} from '../home/sections/banner/banner.js';
+import { Footer } from '../components/Footer/Footer.js';
 
 const links = [
   { label: 'SOBRE', href: '/sobre' },
@@ -15,4 +16,5 @@ const main = document.querySelector('main');
 
 main.innerHTML = `
   ${Banner()}
+  ${Footer()}
 `;

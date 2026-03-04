@@ -23,3 +23,25 @@ main{
     /* background-color: red; */
     height: 100vh;
 }
+
+.section-titulo{
+    font-weight: 900;
+    font-size: 9vw;
+    line-height: 0.97
+}
+
+@media (min-width:  768px) and (max-width: 992px){
+    body{
+        padding-top: 3vh;
+        width: 100;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    body{
+        padding-top: 4vh;
+        width: 100%;
+    }
+
+}
