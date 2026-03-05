@@ -2,7 +2,8 @@ import { Header } from '../../components/Header/Header.js';
 import {Banner} from '../home/sections/banner/banner.js';
 import { Footer } from '../components/Footer/Footer.js';
 import { QuemSomos } from './sections/quem-somos/quem-somos.js';
-
+import { WorldPeaceForum } from './sections/world-peace-forum/world-peace-forum.js';
+// home\sections\world-peace-forum\world-peace-forum.js
 const links = [
   { label: 'SOBRE', href: '/sobre' },
   { label: 'QUEM SOMOS', href: '#quem-somos' },
@@ -18,5 +19,6 @@ const main = document.querySelector('main');
 main.innerHTML = `
   ${Banner()}
   ${QuemSomos()}
+  ${WorldPeaceForum()}
   ${Footer()}
 `;
