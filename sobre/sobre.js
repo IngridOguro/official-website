@@ -1,8 +1,15 @@
-import { Navbar } from '../../components/Navbar/Navbar.js';
+import { Header } from '../../components/Header/Header.js';
+import { Footer } from '../components/Footer/Footer.js';
 
 const links = [
-  { label: 'Home', href: '/' },
-  { label: 'Campanhas', href: '/campanhas/' }
+  { label: 'INÍCIO', href: '/' },
+  { label: 'SOBRE', href: '/sobre' }
 ];
 
-document.body.insertAdjacentHTML('afterbegin', Navbar(links));
+document.body.insertAdjacentHTML('afterbegin', Header(links));
+
+const main = document.querySelector('main');
+
+main.innerHTML = `
+  ${Footer()}
+`; 

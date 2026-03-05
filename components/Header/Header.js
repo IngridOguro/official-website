@@ -23,7 +23,7 @@ export function Header(links = []) {
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-2 col-sm-3 col-4 d-flex justify-content-center align-items-center pt-3 mb-1 pe-2">
-                <img src="assets/images/dark-logo.png" alt="AHTP" class="img-fluid">
+                <img src="/assets/images/dark-logo.png" alt="AHTP" class="img-fluid">
             </div>
             <div class="container-fluid ">
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">

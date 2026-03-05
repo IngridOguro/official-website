@@ -6,7 +6,7 @@ export function QuemSomos(links = []) {
         </section>
         <section id="quem-somos">
             <div class="quem-somos-txt">
-                <p id="section-title">QUEM SOMOS</p>
+                <p class="section-titulo">QUEM SOMOS</p>
                 <div class="quem-somos-txt-desc">
                     <a class="fw-medium fst-italic">
                         O <strong>ARMY HELP THE PLANET</strong> é um movimento social atuante como Organização Não

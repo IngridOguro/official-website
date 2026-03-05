@@ -1,9 +1,4 @@
 /* QUEM SOMOS */
-#section-title{
-    font-weight: 900;
-    font-size: 9vw;
-    color: var(--ahtp_textos);
-}
 
 .quem-somos-txt
 {
@@ -23,6 +18,10 @@
     text-decoration: none;
     color: var(--ahtp_textos);
     text-align: justify;
+}
+
+#quem-somos p{
+    line-height:normal;
 }
 
 #quem-somos{
