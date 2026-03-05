@@ -1,0 +1,37 @@
+#bemfeitoria{
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0;
+    background-color: var(--ahtp_branco);
+    height:50vh
+}
+
+#bemfeitoria img{
+    height: 45%;
+}
+
+#bemfeitoria p{
+    color: var(--ahtp_textos);
+    text-decoration: none;
+    margin: 3vh 0;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 4vh;
+}
+
+#bemfeitoria button{
+    font-size: 4vh;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    color: var(--ahtp_textos);
+    background-color: var(--ahtp_branco);
+    border: none;
+    padding: 1vh 1vw;
+    box-shadow: 1px 1px 10px rgba(0, 0, 10, 0.231);
+}
+
+#bemfeitoria button:hover{
+    color: var(--ahtp_branco);
+    background-color: var(--ahtp_verde);
+}
