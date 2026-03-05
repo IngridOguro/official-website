@@ -5,6 +5,7 @@ import { QuemSomos } from './sections/quem-somos/quem-somos.js';
 import { WorldPeaceForum } from './sections/world-peace-forum/world-peace-forum.js';
 import { Benfeitoria } from './sections/benfeitoria/benfeitoria.js';
 import { Impacto } from './sections/impacto/impacto.js';
+import { NaMidia } from './sections/na-midia/na-midia.js';
 
 const links = [
   { label: 'SOBRE', href: '/sobre' },
@@ -23,5 +24,6 @@ main.innerHTML = `
   ${WorldPeaceForum()}
   ${Benfeitoria()}
   ${Impacto()}
+  ${NaMidia()}
   ${Footer()}
 `;
