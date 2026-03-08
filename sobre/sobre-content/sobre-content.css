@@ -34,11 +34,16 @@
     padding: 7vh 0;
 }
 
+#army .titulo-secao{
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+}
+
 .logo-area {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
     max-width: 50%;
 }
 
@@ -50,7 +55,7 @@
 .titulo {
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 10vh;
+    font-size: 13vh;
     text-decoration: none;
     color: var(--ahtp_textos);
 }
@@ -63,25 +68,28 @@
 }
 
 .descricao-area {
-    width: 70%;
+    width: 75%;
     padding-right: 13vw;
+    text-align: justify;
 }
 
 .texto {
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 5vh;
+    font-size: 6.4vh;
+    line-height:1.2;
     text-decoration: none;
     color: var(--ahtp_textos);
-    text-align: justify;
+    /* text-align: justify; */
+    /* border: solid; */
+    /* text-justify: distribute; */
 }
 
-.logo {
+.logo-area-img {
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 img {
@@ -100,7 +108,12 @@ img {
     padding: 20vh 0;
 }
 
-#help .logo {
+#help .logo-area {
+    width: 24vw;
+
+}
+
+#help .logo-area-img {
     height: 10vh;
 
 }
@@ -108,7 +121,14 @@ img {
 #help .titulo-div {
     display: flex;
     justify-content: right;
+}
 
+#help .titulo {
+    color:black;
+}
+
+#help .texto {
+    color: black;
 }
 
 #help .descricao-div {
@@ -123,6 +143,14 @@ img {
 
 #help .titulo-secao {
     justify-content: right;
+}
+
+#theplanet .logo-area{
+    width: 17%;
+}
+
+#theplanet .logo-area-img{
+    height: 13vh;
 }
 
 @media (min-width: 496px) {
@@ -180,5 +208,19 @@ img {
     .texto {
         font-size: 4vh;
         padding: 0;
+    }
+}
+
+@media (max-width: 1260px) and (min-width: 673px){
+    .titulo{
+        font-size: 10vh;
+    }
+
+    .texto{
+        font-size: 5vh;
+    }
+
+    .logo-area-img {
+        height: 13vh;
     }
 }
