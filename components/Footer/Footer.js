@@ -34,7 +34,7 @@ export function Footer(links = []) {
                         </div>
                     </div>
                     <div class="contato-icon">
-                        <img src="/assets/icon/dark-icon.png" alt="" class="img-contato">
+                        <img src="./assets/icon/dark-icon.png" alt="" class="img-contato">
                     </div>
                 </div>
             </footer>
