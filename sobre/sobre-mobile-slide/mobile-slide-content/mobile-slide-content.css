@@ -37,11 +37,11 @@ html  *{
     font-weight: 800;
 }
 
-.title, .logo{
+.title, .title-box-logo{
     padding: 0 5vw;
 }
 
-.logo{
+.title-box-logo{
     /* background-color: red; */
     width: 23vw;
     height: auto;
@@ -49,7 +49,7 @@ html  *{
 
 
 
-.logo img{
+.title-box-logo img{
     object-fit:contain;
     max-width: 100%;
     max-height: 100%;

@@ -5,7 +5,7 @@ export function SobreSlideContent() {
                     <div class="slide-sobre-div">
                         <div class="slide-sobre-content" id="slide-army">
                             <div class="title-box">
-                                <div class="logo">
+                                <div class="title-box-logo">
                                     <img src="/assets/images/logo/army.png">
                                 </div>
                                 <div class="title">ARMY</div>
@@ -25,7 +25,7 @@ export function SobreSlideContent() {
                     <div class="slide-sobre-div">
                         <div class="slide-sobre-content" id="help">
                             <div class="title-box">
-                                <div class="logo">
+                                <div class="title-box-logo">
                                     <img src="/assets/images/logo/help.png">
                                 </div>
                                 <div class="title">HELP</div>
@@ -45,7 +45,7 @@ export function SobreSlideContent() {
                     <div class="slide-sobre-div">
                         <div class="slide-sobre-content" id="planet">
                             <div class="title-box">
-                                <div class="logo">
+                                <div class="title-box-logo">
                                     <img src="/assets/images/logo/planet.png">
                                 </div>
                                 <div class="title">THE PLANET</div>
