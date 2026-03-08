@@ -11,7 +11,7 @@ export function SobreContent(links = []) {
                 <div class="logo-area">
                     <div class="logo">
                         <img id="army_img" class="img" 
-                        src="/images/logo/army.png" alt="">
+                        src="/assets/images/logo/army.png" alt="">
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ export function SobreContent(links = []) {
                 <div class="logo-area">
                     <div class="logo">
                 
-                        <img class="img" src="/images/logo/help.png" alt="">
+                        <img class="img" src="/assets/images/logo/help.png" alt="">
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export function SobreContent(links = []) {
             <div class="titulo-secao">
                 <div class="logo-area">
                     <div class="logo">
-                        <img id="theplanet_img" class="img" src="/images/logo/planet.png" alt="">
+                        <img id="theplanet_img" class="img" src="/assets/images/logo/planet.png" alt="">
                     </div>
                 </div>
                 <div class="titulo-div">
