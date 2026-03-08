@@ -9,38 +9,67 @@ html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
     /* background-color: red; */
-    }
+}
 
 :root {
     --ahtp_branco: #FFFEFF;
     --ahtp_verde: #56E79A;
-    --ahtp_verde_claro:#7CECB1;
+    --ahtp_verde_claro: #7CECB1;
     --ahtp_textos: #1D1D1D;
 }
 
-main{
-    margin-top: 10vh;
+main {
+    margin-top: 13vh;
     height: 100vh;
 }
 
-.section-titulo{
+.section-titulo {
     font-weight: 900;
     font-size: 9vw;
     line-height: 0.97
 }
 
-@media (min-width:  768px) and (max-width: 992px){
-    body{
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+    mix-blend-mode: difference !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev img, .carousel-control-next img{
+ height: 5vh;
+ filter: brightness(200%);
+}
+
+.carousel-control-prev img{
+ rotate: 180deg;
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+        .carousel-control-next img,.carousel-control-prev img{
+        height: 5vh;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
         padding-top: 3vh;
         width: 100;
     }
 
 }
 
-@media (min-width: 480px) and (max-width: 768px){
-    body{
+@media (min-width: 480px) and (max-width: 768px) {
+    body {
         padding-top: 4vh;
         width: 100%;
     }
-
+    .carousel-control-next img,.carousel-control-prev img{
+        height: 5vh;
+    }
 }

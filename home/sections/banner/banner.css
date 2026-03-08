@@ -8,23 +8,3 @@
     width: 100%;
     justify-self: center;
 }
-
-.carousel-control-prev, .carousel-control-next,.carousel-indicators{
-mix-blend-mode: difference !important;
-}
-
-.carousel-control-prev img, .carousel-control-next img{
- height: 5vh;
- filter: brightness(200%);
-}
-
-.carousel-control-prev img{
- rotate: 180deg;
-}
-
-@media (min-width: 480px) and (max-width: 768px){
-        .carousel-control-next img,.carousel-control-prev img{
-        height: 5vh;
-    }
-
-}
