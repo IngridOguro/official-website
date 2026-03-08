@@ -1,0 +1,10 @@
+/* #banner, #naMidia{
+    padding: 2vh;
+} */
+
+.banner_div{
+    /* background: rgb(221, 92, 92); */
+    padding: 0 0;
+    width: 100%;
+    justify-self: center;
+}

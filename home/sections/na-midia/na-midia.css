@@ -1,0 +1,48 @@
+#naMidia {
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.materia_div {
+    padding: 0 25vw;
+    width: 95%;
+    justify-self: center;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+
+.materia_div a {
+    width: 100vw;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.materia_div img {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+@media (max-width: 480px) {
+    .materia_div {
+        padding: 0 1vw;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+    .materia_div {
+        padding: 0 3vw;
+    }
+
+}

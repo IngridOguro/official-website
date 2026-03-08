@@ -1,0 +1,16 @@
+#world-peace-forum{
+    background-color: var(--ahtp_verde_claro);
+    display: flex;
+    width: 100% !important;
+    object-fit: contain;
+}
+
+#world-peace-forum-bg{
+    width: 60%; 
+    margin: 0;
+    background-image: url(/assets/images/worldpeaceforum.png);
+    background-attachment: fixed;
+    background-size: auto 103% ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
