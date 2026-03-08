@@ -8,7 +8,6 @@
 html {
     scroll-behavior: smooth;
     scroll-padding: var(--scroll-padding, 5rem);
-    /* background-color: red; */
 }
 
 :root {
@@ -40,17 +39,20 @@ main {
     background-image: none;
 }
 
-.carousel-control-prev img, .carousel-control-next img{
- height: 5vh;
- filter: brightness(200%);
+.carousel-control-prev img,
+.carousel-control-next img {
+    height: 5vh;
+    filter: brightness(200%);
 }
 
-.carousel-control-prev img{
- rotate: 180deg;
+.carousel-control-prev img {
+    rotate: 180deg;
 }
 
-@media (min-width: 480px) and (max-width: 768px){
-        .carousel-control-next img,.carousel-control-prev img{
+@media (min-width: 480px) and (max-width: 768px) {
+
+    .carousel-control-next img,
+    .carousel-control-prev img {
         height: 5vh;
     }
 
@@ -69,7 +71,9 @@ main {
         padding-top: 4vh;
         width: 100%;
     }
-    .carousel-control-next img,.carousel-control-prev img{
+
+    .carousel-control-next img,
+    .carousel-control-prev img {
         height: 5vh;
     }
 }

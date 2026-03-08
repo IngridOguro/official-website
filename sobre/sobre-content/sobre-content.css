@@ -15,8 +15,6 @@
     text-align: center;
 }
 
-/* <!-- SEÇÃO NOSSO NOME E LOGO --> */
-
 .section {
     background-color: var(--ahtp_verde);
     display: flex;
@@ -46,18 +44,8 @@
 
 .titulo-div {
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     width: 70%;
-    /* max-width: 50%; */
 }
-
-/* .titulo-area{
-    border: var(--ahtp_verde_claro);
-    border-width: 5px;
-    border-style: solid;
-    padding: 2vh 5vw;
-}  */
 
 .titulo {
     font-family: Montserrat;
@@ -67,13 +55,11 @@
     color: var(--ahtp_textos);
 }
 
-
-
 .descricao-div {
     width: 100%;
     display: flex;
     justify-content: right;
-    /* padding: 1vh 1vw; */
+
 }
 
 .descricao-area {
@@ -90,7 +76,6 @@
     text-align: justify;
 }
 
-/* LOGO */
 .logo {
     height: 15vh;
     display: flex;
@@ -109,14 +94,6 @@ img {
 #theplanet_img {
     filter: brightness(0);
 }
-
-/* ARMY */
-/* #army {
-    height: 72vh !important;
-} */
-
-
-/* HELP */
 
 #help {
     background-color: white;
@@ -142,18 +119,13 @@ img {
 #help .descricao-area {
     padding-left: 13vw;
     padding-right: 0;
-    /* background-color: #56E79A; */
 }
 
 #help .titulo-secao {
     justify-content: right;
 }
 
-    /* #sobreSlide {
-        display: none !important;
-    } */
-
-@media (min-width: 496px){
+@media (min-width: 496px) {
     #sobreSlide {
         display: none !important;
     }
@@ -167,30 +139,6 @@ img {
     .sobrenos-div {
         display: none;
     }
-
-
-
-
-
-    /* main{
-        display:flex;
-        flex-direction: row;
-        overflow-x: scroll;
-    }
-
-    .section{
-        width: 100vw !important;
-    }
-
-    .titulo{
-       font-size: 5vh;
-    } 
-
-
-    .texto {
-        font-size: 3vh;
-        padding: 0;
-    } */
 }
 
 
@@ -220,14 +168,12 @@ img {
 
 
     .descricao-div {
-        /* background-color: blue; */
         width: 100%;
         justify-content: center !important;
     }
 
     .descricao-area {
         width: 80%;
-        /* background-color: red !important; */
         padding: 0;
     }
 

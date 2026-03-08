@@ -1,16 +1,16 @@
-header{
+header {
     background-color: #56E79A;
 }
 
-body{
-    background-color: var(--ahtp_branco); 
+body {
+    background-color: var(--ahtp_branco);
     font-family: "Montserrat", sans-serif;
 }
 
-#navbar{
+#navbar {
     background-color: var(--ahtp_branco) !important;
 }
 
-.ahtp-text{
+.ahtp-text {
     color: var(--ahtp_textos) !important;
 }

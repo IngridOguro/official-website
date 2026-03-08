@@ -1,16 +1,16 @@
-#bemfeitoria{
+#bemfeitoria {
     justify-content: center;
     align-items: center;
     padding: 3vh 0;
     background-color: var(--ahtp_branco);
-    height:50vh
+    height: 50vh
 }
 
-#bemfeitoria img{
+#bemfeitoria img {
     height: 45%;
 }
 
-#bemfeitoria p{
+#bemfeitoria p {
     color: var(--ahtp_textos);
     text-decoration: none;
     margin: 3vh 0;
@@ -19,7 +19,7 @@
     font-size: 4vh;
 }
 
-#bemfeitoria button{
+#bemfeitoria button {
     font-size: 4vh;
     font-style: italic;
     font-weight: 700;
@@ -31,7 +31,7 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 10, 0.231);
 }
 
-#bemfeitoria button:hover{
+#bemfeitoria button:hover {
     color: var(--ahtp_branco);
     background-color: var(--ahtp_verde);
 }

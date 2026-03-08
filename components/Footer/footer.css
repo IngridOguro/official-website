@@ -1,5 +1,4 @@
-
-footer{
+footer {
     background-color: var(--ahtp_branco);
     display: flex;
     flex-direction: column;
@@ -8,41 +7,41 @@ footer{
     padding: 2vh 0;
 }
 
-.contact-info-box{
+.contact-info-box {
     background-color: var(--ahtp_branco);
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     padding: 2vh 0;
 }
 
-.contact-info{
+.contact-info {
     width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.contato-icon{
+.contato-icon {
     width: 30vw;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.img-contato{
+.img-contato {
     width: 40%;
-    object-fit:contain;
+    object-fit: contain;
 }
 
-.contato{
+.contato {
     padding: 3vh 0;
     font-size: 3vh;
 }
 
-.social-medias{
+.social-medias {
     height: 10vh;
     width: 65%;
     display: flex;
@@ -53,32 +52,32 @@ footer{
     padding: 1vh 1vw;
 }
 
-.sm-img{
+.sm-img {
     object-fit: contain;
     height: 4vh;
 }
 
 
-@media(max-width: 480px){
-    .contact-info-box{
+@media(max-width: 480px) {
+    .contact-info-box {
         flex-direction: column;
     }
 
-    .contact-info{
+    .contact-info {
         width: 100%;
         padding: 5vh;
     }
 
-    .social-medias{
+    .social-medias {
         width: 100%;
     }
 
-    .contato-icon{
+    .contato-icon {
         width: 100%;
         padding: 4vh;
     }
 
-    .contato{
+    .contato {
         padding: 3vh 0;
         font-size: 2vh;
     }
