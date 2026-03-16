@@ -8,17 +8,53 @@ html  *{
     margin: 0;
 }
 
+html{
+        background-color: transparent !important;
+}
+
+main{
+    margin:0 !important;
+    background-color: transparent !important;
+}
+
 .slide-sobre-div{
-    background-color: #56E79A;
+    /* background-color:var(--ahtp_verde); */
     width: 100%;
     height: 100vh;
     display: flex;
     align-items:end;
 }
 
+.help-div{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    background-color: white;
+}
+
+.block-space>a{
+    font-size: 7vh;
+    font-weight: 800;
+}
+
+.block-space{
+    /* background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 1%, #56E79A 50%) */
+    /* background-color: red; */
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+
 .slide-sobre-content{
     /* background-color: blueviolet; */
     padding: 0 1vw;
+}
+
+.slide-sobre-div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .title-box{
@@ -27,13 +63,14 @@ html  *{
     flex-direction:row;
     justify-content: center;
     align-items: center;
-    padding: 5vh 1vw;
+    /* padding: 10vh 1vw; */
+    height: 20vh;
 
 }
 
-.title{
+.slide-title{
     font-family: "Montserrat", sans-serif;
-    font-size: 6vh;
+    font-size: 4vh;
     font-weight: 800;
 }
 
@@ -42,12 +79,13 @@ html  *{
 }
 
 .title-box-logo{
-    /* background-color: red; */
-    width: 23vw;
+    width: 17vw;
     height: auto;
 }
 
-
+#slide-army img, #slide-planet img {
+    filter: brightness(0);
+}
 
 .title-box-logo img{
     object-fit:contain;
@@ -58,13 +96,26 @@ html  *{
 .slide-sobre-desc{
     /* background-color: turquoise; */
     font-family: Montserrat;
-    font-size: 3.3vh;
-    font-weight: 500;
+    font-size: 2.6vh;
+    font-weight: 600;
+    line-height: 1.2;
     padding: 0 10vw;
-    text-align:justify;
+    text-align: justify;
+}
+
+/* #slide-help{
+    background-color: white;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+} */
+
+#slide-help .title-box-logo{
+    width: 20vw;
 }
 
 .space{
-    height: 10vh;
+    height: 15vh;
     /* background-color: blue; */
 }

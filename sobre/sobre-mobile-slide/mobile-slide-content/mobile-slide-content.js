@@ -3,18 +3,20 @@ export function SobreSlideContent() {
               <div class="carousel-item active">
                 <div class="significado-div">
                     <div class="slide-sobre-div">
+                        <div class="block-space">
+                          <a id="slide-sobrenos">SOBRE NÓS</a>
+                        </div>
                         <div class="slide-sobre-content" id="slide-army">
                             <div class="title-box">
                                 <div class="title-box-logo">
                                     <img src="/assets/images/logo/army.png">
                                 </div>
-                                <div class="title">ARMY</div>
+                                <div class="slide-title">ARMY</div>
                             </div>
                             <div class="slide-sobre-desc">
-                                Agindo e incentivando a tomada de ações para um mundo melhor por meio do voluntariado e
-                                mobilização da sociedade civil.
-                            </div>
-                            <div class="space">
+                                Somos um grupo de profissionais fãs do BTS, 
+                                movidos e inspirados pela arte do grupo, tendo
+                                como exemplo o bem que os 7 membros fazem ao mundo.
                             </div>
                         </div>
                     </div>
@@ -22,19 +24,19 @@ export function SobreSlideContent() {
             </div>
             <div class="carousel-item">
                 <div class="significado-div">
-                    <div class="slide-sobre-div">
-                        <div class="slide-sobre-content" id="help">
+                    <div class="slide-sobre-div help-div">
+                        <div class="block-space">
+                        </div>
+                        <div class="slide-sobre-content" id="slide-help">
                             <div class="title-box">
                                 <div class="title-box-logo">
                                     <img src="/assets/images/logo/help.png">
                                 </div>
-                                <div class="title">HELP</div>
+                                <div class="slide-title">HELP</div>
                             </div>
                             <div class="slide-sobre-desc">
                                 Agindo e incentivando a tomada de ações para um mundo melhor por meio do voluntariado e
                                 mobilização da sociedade civil.
-                            </div>
-                            <div class="space">
                             </div>
                         </div>
                     </div>
@@ -43,18 +45,18 @@ export function SobreSlideContent() {
             <div class="carousel-item">
                 <div class="significado-div">
                     <div class="slide-sobre-div">
-                        <div class="slide-sobre-content" id="planet">
+                        <div class="block-space">
+                        </div>
+                        <div class="slide-sobre-content" id="slide-planet">
                             <div class="title-box">
                                 <div class="title-box-logo">
                                     <img src="/assets/images/logo/planet.png">
                                 </div>
-                                <div class="title">THE PLANET</div>
+                                <div class="slide-title">THE PLANET</div>
                             </div>
                             <div class="slide-sobre-desc">
-                                Agindo e incentivando a tomada de ações para um mundo melhor por meio do voluntariado e
-                                mobilização da sociedade civil.
-                            </div>
-                            <div class="space">
+                                Meio ambiente, sociedade, políticas públicas e outros 
+                                temas são parte da nossa agenda para um planeta cada vez melhor.
                             </div>
                         </div>
                     </div>
