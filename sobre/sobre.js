@@ -5,7 +5,8 @@ import { SobreMobileSlide } from './sobre-mobile-slide/sobre-mobile-slide.js';
 
 const links = [
   { label: 'INÍCIO', href: '/' },
-  { label: 'SOBRE', href: '/sobre' }
+  { label: 'SOBRE', href: '/sobre' },
+  { label: 'CAMPANHAS', href: '/campanhas' }
 ];
 
 document.body.insertAdjacentHTML('afterbegin', Header(links));

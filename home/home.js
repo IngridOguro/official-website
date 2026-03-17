@@ -9,6 +9,7 @@ import { NaMidia } from './sections/na-midia/na-midia.js';
 
 const links = [
   { label: 'SOBRE', href: '/sobre' },
+  { label: 'CAMPANHAS', href: '/campanhas' },
   { label: 'QUEM SOMOS', href: '#quem-somos' },
   { label: 'IMPACTO', href: '#impacto' },
   { label: 'NA MIDIA', href: '#naMidia' }
