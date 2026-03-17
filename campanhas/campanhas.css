@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+main{
+    /* background-color: red; */
+}
+
+#campanhas-titulo{
+    width: 100%;
+    background-color: white;
+    height: 20;
+}
+
+#campanhas-titulo-texto{
+    font-size: 14vh;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 6vw;
+}
