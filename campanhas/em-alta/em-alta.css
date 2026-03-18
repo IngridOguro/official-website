@@ -1,6 +1,7 @@
 #em-alta{
-    background-color: aquamarine;
+    background-color: var(--ahtp_verde_claro);
     padding: 3vh 0;
+    width: 100%;
 }
 
 .em-alta-titulo a{
@@ -17,15 +18,21 @@
     justify-content: space-around;
 }
 
-.em-alta-card{
-    /* background-color: blueviolet; */
+/* .em-alta-card{
     width: 27vw;
-}
+} */
 
 .em-alta-card-conteudo{
     background-color: white;
     height: 43vh;
     border-radius: 10px;
+}
+
+.em-alta-card-conteudo img{
+    border-radius: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* .em-alta-card-label{
@@ -37,4 +44,5 @@
     font-size: 3vh;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
+    color: black !important;
 }
