@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Amazonia",
+    "descricao": "Descrição da campanha.",
+    "imagem": "/assets/campanhas/em-alta/benfeitoria.png"
+  },
+  {
+    "titulo": "Pantanal",
+    "descricao": "Descrição da campanha.",
+    "imagem": "/assets/campanhas/em-alta/benfeitoria.png"
+  },
+  {
+    "titulo": "Fiocruz",
+    "descricao": "Descrição da campanha.",
+    "imagem": "/assets/campanhas/em-alta/benfeitoria.png"
+  }
+]
