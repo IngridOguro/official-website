@@ -1,17 +1,106 @@
 [
   {
-    "titulo": "Amazonia",
-    "descricao": "Descrição da campanha.",
-    "imagem": "/assets/campanhas/em-alta/benfeitoria.png"
+    "ano": 2023,
+    "campanhas": [
+      {
+        "id": 1,
+        "titulo": "Água para Todos",
+        "descricao": "Distribuição de água potável em comunidades.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": true
+      },
+      {
+        "id": 2,
+        "titulo": "Reforma Solidária",
+        "descricao": "Reformas de moradias em situação precária.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      },
+      {
+        "id": 3,
+        "titulo": "Cultura Viva",
+        "descricao": "Oficinas culturais para jovens.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": true
+      }
+    ]
   },
   {
-    "titulo": "Pantanal",
-    "descricao": "Descrição da campanha.",
-    "imagem": "/assets/campanhas/em-alta/benfeitoria.png"
+    "ano": 2024,
+    "campanhas": [
+      {
+        "id": 4,
+        "titulo": "Alimente um Sonho",
+        "descricao": "Distribuição de refeições para moradores de rua.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      },
+      {
+        "id": 5,
+        "titulo": "Inclusão Digital",
+        "descricao": "Doação de computadores e acesso à internet.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": true
+      },
+      {
+        "id": 6,
+        "titulo": "Mães Fortes",
+        "descricao": "Apoio a mães solo com cursos e suporte.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      }
+    ]
   },
   {
-    "titulo": "Fiocruz",
-    "descricao": "Descrição da campanha.",
-    "imagem": "/assets/campanhas/em-alta/benfeitoria.png"
+    "ano": 2025,
+    "campanhas": [
+      {
+        "id": 7,
+        "titulo": "Doe Esperança",
+        "descricao": "Campanha de arrecadação de alimentos.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      },
+      {
+        "id": 8,
+        "titulo": "Educação para Todos",
+        "descricao": "Apoio educacional para jovens.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      },
+      {
+        "id": 9,
+        "titulo": "Saúde em Foco",
+        "descricao": "Atendimento básico e prevenção.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      }
+    ]
+  },
+  {
+    "ano": 2026,
+    "campanhas": [
+      {
+        "id": 10,
+        "titulo": "Volta às Aulas Solidária",
+        "descricao": "Arrecadação de materiais escolares para crianças em vulnerabilidade.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      },
+      {
+        "id": 11,
+        "titulo": "Campanha do Agasalho",
+        "descricao": "Distribuição de roupas de inverno para famílias carentes.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      },
+      {
+        "id": 12,
+        "titulo": "Natal Solidário",
+        "descricao": "Entrega de cestas básicas e presentes no fim de ano.",
+        "imagem": "/assets/campanhas/em-alta/benfeitoria.png",
+        "em-alta": false
+      }
+    ]
   }
 ]
