@@ -1,6 +1,7 @@
 import { Header } from '../components/Header/Header.js';
 import { Footer } from '../components/Footer/Footer.js'
 import { EmAlta } from './em-alta/em-alta.js';
+import { Historico } from './historico-campanhas/historico-campanhas.js'
 
 const links = [
   { label: 'INÍCIO', href: '/' },
@@ -15,6 +16,7 @@ const main = document.querySelector('main');
 async function init() {
   main.innerHTML = `
     ${await EmAlta()}
+    ${await Historico()}
     ${Footer()}
   `;
 }
