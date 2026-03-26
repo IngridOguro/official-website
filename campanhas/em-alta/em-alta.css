@@ -5,7 +5,7 @@
 }
 
 .em-alta-titulo a{
-    font-size: 10vh;
+    font-size: 5vw;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     padding-left: 6vw;
@@ -24,7 +24,8 @@
 
 .em-alta-card-conteudo{
     background-color: white;
-    height: 43vh;
+    width: 27vw;
+    /* height: 43vh; */
     border-radius: 10px;
 }
 
@@ -45,4 +46,33 @@
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     color: black !important;
+}
+
+@media (max-width: 473px){
+
+.em-alta-titulo a {
+font-size: 11vw;
+}
+
+.em-alta-cards{
+    flex-direction: column;
+    align-items: center;
+}
+
+.em-alta-card{
+    margin-bottom: 4vh;
+}
+
+.em-alta-card-conteudo{
+    width: 70vw;
+}
+
+}
+
+@media (max-width: 700px) and (min-width: 473px){
+
+.em-alta-card-label a{
+    font-size: 2vh;
+ }
+
 }
