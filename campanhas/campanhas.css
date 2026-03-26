@@ -7,13 +7,14 @@ main{
 #campanhas-titulo{
     width: 100%;
     background-color: var(--ahtp_branco);
-    height: 30vh;
     display: flex;
-    align-items: center;
+    align-items:baseline;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 }
 
 #campanhas-titulo-texto{
-    font-size: 14vh;
+    font-size: 10vw;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     padding-left: 6vw;
