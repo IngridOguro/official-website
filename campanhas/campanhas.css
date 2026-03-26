@@ -19,3 +19,11 @@ main{
     font-family: "Montserrat", sans-serif;
     padding-left: 6vw;
 }
+
+@media (max-width: 473px){
+
+#campanhas-titulo-texto {
+font-size: 13vw;
+}
+
+}
