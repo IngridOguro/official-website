@@ -100,6 +100,27 @@
         "descricao": "Entrega de cestas básicas e presentes no fim de ano.",
         "imagem": "/assets/campanhas/em-alta/Campanha1.png",
         "em-alta": false
+      },
+            {
+        "id": 10,
+        "titulo": "Volta às Aulas Solidária",
+        "descricao": "Arrecadação de materiais escolares para crianças em vulnerabilidade.",
+        "imagem": "/assets/campanhas/em-alta/Campanha3.png",
+        "em-alta": false
+      },
+      {
+        "id": 11,
+        "titulo": "Campanha do Agasalho",
+        "descricao": "Distribuição de roupas de inverno para famílias carentes.",
+        "imagem": "/assets/campanhas/em-alta/Campanha2.png",
+        "em-alta": false
+      },
+      {
+        "id": 12,
+        "titulo": "Natal Solidário",
+        "descricao": "Entrega de cestas básicas e presentes no fim de ano.",
+        "imagem": "/assets/campanhas/em-alta/Campanha1.png",
+        "em-alta": false
       }
     ]
   }

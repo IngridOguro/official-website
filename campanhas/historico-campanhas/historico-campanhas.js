@@ -34,7 +34,12 @@ export async function Historico() {
             <div class="accordion-body">
               ${ano.campanhas.map(campanha => `
                 <div class="historico-campanha">
-                  <img src="${campanha.imagem}" alt="">
+                  <div class="historico-campanha-img">
+                    <img src="${campanha.imagem}" alt="">
+                  </div>
+                  <div class="historico-campanha-label">
+                    <a>${campanha.titulo}</a>
+                  </div>
                 </div>
               `).join('')}
             </div>
