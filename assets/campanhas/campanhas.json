@@ -24,7 +24,7 @@
         "id": 3,
         "titulo": "ARMY HELP THE AMAZON",
         "descricao": "Financiamento do plantio de 400 árvores nativa em área de preservação na região transamazônica em parceria com a INICIATIVA VERDE.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$8.897,00",
         "imagem": "/assets/campanhas/capa-campanhas/armyhelptheamazon2019.jpg",
         "em-alta": false
@@ -38,7 +38,7 @@
         "id": 1,
         "titulo": "7 REASONS TO HELP",
         "descricao": "O objetivo da campanha 7 Reasons to Help foi financiar produtos de higiene pessoal e alimentos proteicos para 47 idosos atendidos pelo asilo Casa do Pobre Santo Antônio.\n\nO projeto arrecadou um total de R$ 3.140,00, com a colaboração de 98 ARMYs.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$3.140,00",
         "imagem": "/assets/campanhas/capa-campanhas/7reasonstohelp.jpg",
         "em-alta": false
@@ -47,7 +47,7 @@
         "id": 2,
         "titulo": "Pantanal",
         "descricao": "Financiamento de reforma da base de incêndios e apoio de suprimentos para combate ao fogo.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$52.945,00",
         "imagem": "/assets/campanhas/capa-campanhas/armyhelpthepantanal.jpg",
         "em-alta": false
@@ -61,7 +61,7 @@
         "id": 1,
         "titulo": "Manaus",
         "descricao": "Financiamento de suprimentos para hospitais do estado do AMAZONAS.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$59.216,30",
         "imagem": "/assets/campanhas/capa-campanhas/armyhelpmanaus.jpg",
         "em-alta": false
@@ -70,7 +70,7 @@
         "id": 2,
         "titulo": "POVOS DA FLORESTA",
         "descricao": "Esta campanha teve como objetivo apoiar ações de comunicação, articulação e mobilização política em defesa dos direitos dos povos indígenas, além de incentivar a adesão de novos apoiadores.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$3.418,00",
         "imagem": "/assets/campanhas/capa-campanhas/povosdafloresta.jpg",
         "em-alta": false
@@ -79,7 +79,7 @@
         "id": 3,
         "titulo": "Fiocruz",
         "descricao": "Campanha colaborativa como BTS ARMY para financiamento de cestas básicas para pessoas em vulnerabilidade social.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$60.209,00",
         "imagem": "/assets/campanhas/capa-campanhas/armycontrafome.jpg",
         "em-alta": false
@@ -107,7 +107,7 @@
         "id": 1,
         "titulo": "BRING THE SMILE",
         "descricao": "A Bring The Smile foi uma campanha colaborativa do #BTSARMY para o apadrinhamento coletivo de três crianças durante um ano. A ação envolveu uma parceria entre o AHTP e o ChildFund Brasil.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$5.216,00",
         "imagem": "/assets/campanhas/capa-campanhas/bringthesmile.jpg",
         "em-alta": false
@@ -125,7 +125,7 @@
         "id": 3,
         "titulo": "Army match a million (Unicef)",
         "descricao": "A campanha BARMY Match A Million foi realizada em parceria entre o AHTP e a UNICEF Brasil. Nessa iniciativa, o ARMY foi convidado a realizar doações por meio de um link especialmente preparado pela UNICEF Brasil, em apoio à mobilização global #ArmyForUnicef e ao desafio #MatchAMillion, em homenagem ao BTS.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$14.018,71",
         "imagem": "/assets/campanhas/capa-campanhas/barmymatchamillion.jpg",
         "em-alta": false
@@ -134,7 +134,7 @@
         "id": 4,
         "titulo": "ARMY PELA AMAZÔNIA",
         "descricao": "A campanha ARMY pela Amazônia foi realizada em parceria entre o AHTP e o Instituto Mamirauá. O objetivo da iniciativa foi arrecadar fundos para apoiar o monitoramento da biodiversidade amazônica e contribuir para a preservação ambiental da região.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$6.211,00",
         "imagem": "/assets/campanhas/capa-campanhas/armypelaamazonia.jpg",
         "em-alta": false
@@ -148,7 +148,7 @@
         "id": 1,
         "titulo": "ARMY HELP CASA 1",
         "descricao": "A campanha ARMY Help Casa 1 envolveu a parceria entre o AHTP e a Casa 1. O objetivo da ação foi arrecadar fundos para manter a Casa 1 em funcionamento e apoiar suas iniciativas de acolhimento, cultura e clínica social voltadas a pessoas LGBTQIAPN+.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$1.956,00",
         "imagem": "/assets/campanhas/capa-campanhas/casa1.jpg",
         "em-alta": false
@@ -157,7 +157,7 @@
         "id": 2,
         "titulo": "ARMY HELP TEA",
         "descricao": "Campanha solidária em apoio ao Instituto TEAbraço, instituição dedicada ao acolhimento, desenvolvimento e inclusão de pessoas neurodivergentes, especialmente aquelas com Transtorno do Espectro Autista (TEA), bem como ao suporte de suas famílias, em Santo Antônio de Jesus, interior da Bahia.",
-        "indice": "Valor Arrecadado (R$)",
+        "indice": "Valor Arrecadado: ",
         "valor-indice": "R$5.420,00",
         "imagem": "/assets/campanhas/capa-campanhas/helptea.jpg",
         "em-alta": true
