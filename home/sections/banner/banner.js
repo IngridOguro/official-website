@@ -12,23 +12,7 @@ export function Banner(links = []) {
                 <div class="banner_div">
                     <a href=""
                         target="_blank" rel="noopener noreferrer">
-                        <img src="assets/banner/recesso.png" class="d-block w-100" alt="...">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="banner_div">
-                    <a href=""
-                        target="_blank" rel="noopener noreferrer">
-                        <img src="assets/banner/cop30.png" class="d-block w-100" alt="...">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="banner_div">
-                    <a href=""
-                        target="_blank" rel="noopener noreferrer">
-                        <img src="assets/banner/tea.png" class="d-block w-100" alt="...">
+                        <img src="assets/banner/bloodtosave.png" class="d-block w-100" alt="...">
                     </a>
                 </div>
             </div>
