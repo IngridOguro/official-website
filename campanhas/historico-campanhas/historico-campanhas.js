@@ -32,13 +32,37 @@ export async function Historico() {
 
             <div class="accordion-body">
               ${ano.campanhas.map(campanha => `
-                <div class="historico-campanha">
+                <div class="historico-campanha abrirModal">
                   <div class="historico-campanha-img">
                     <img src="${campanha.imagem}" alt="">
                   </div>
                   <div class="historico-campanha-label">
                     <a>${campanha.titulo}</a>
                   </div>
+
+                  <div class="modal">
+                    <div class="modal-conteudo">
+                      <span class="fechar fecharModal">
+                        &times;
+                      </span>
+                      <div class="modal-img">
+                      <img src="${campanha.imagem}" alt="">
+                      </div>
+                      <div class="modal-body">
+                            <a class="fw-bold">${campanha.titulo}</a>
+                      <p class="modal-descricao">
+                        ${campanha.descricao}
+                      </p>
+                      <p class="modal-indice>
+                        ${campanha.indice}
+                      </p>
+                      <p class="modal-valor">
+                        ${campanha["valor-indice"]}
+                      </p>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </div>
               `).join('')}
             </div>
