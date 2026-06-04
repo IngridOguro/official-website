@@ -28,8 +28,7 @@ export async function Historico() {
 
           <div id="${ano.collapseId}"
                class="accordion-collapse collapse"
-               aria-labelledby="${ano.headingId}"
-               data-bs-parent="#accordionFlushExample">
+               aria-labelledby="${ano.headingId}">
 
             <div class="accordion-body">
               ${ano.campanhas.map(campanha => `
