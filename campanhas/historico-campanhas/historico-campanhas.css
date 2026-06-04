@@ -43,6 +43,7 @@ a{
 }
 
 .modal-img{
+  margin-top: 2vh;
       min-width: 15vw;  
       max-width: 15vw; 
       border-radius: 10px;

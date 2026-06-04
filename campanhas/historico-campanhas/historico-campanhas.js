@@ -50,10 +50,11 @@ export async function Historico() {
                       </div>
                       <div class="modal-body">
                             <a class="fw-bold">${campanha.titulo}</a>
+                            <a class="fw-bold">${ano.ano}</a>
                       <p class="modal-descricao">
                         ${campanha.descricao}
                       </p>
-                      <p class="modal-indice>
+                      <p class=" fw-bold modal-indice">
                         ${campanha.indice}
                       </p>
                       <p class="modal-valor">
@@ -62,7 +63,7 @@ export async function Historico() {
                       </div>
                     </div>
                   </div>
-                  
+
                 </div>
               `).join('')}
             </div>
