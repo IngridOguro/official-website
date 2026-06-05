@@ -8,7 +8,7 @@
         "descricao": "Foi a primeira campanha realizada pelo Army Help The Planet. Ela ocorreu de forma presencial em 16 estados e no Distrito Federal, contando com mais de 300 ARMYs voluntários, que participaram de mutirões de coleta de resíduos sólidos em locais públicos.",
         "indice": "Lítros de resíduo coletado",
         "valor-indice": "47000",
-        "imagem": "/assets/campanhas/capa-campanhas/casa1.jpg",
+        "imagem": "/assets/campanhas/capa-campanhas/armycleaningday.jpg",
         "em-alta": false
       },
       {
@@ -93,8 +93,8 @@
         "id": 1,
         "titulo": "Tira o título/Politizarmy",
         "descricao": "A campanha #TiraOTítuloArmy tem como objetivo conscientizar sobre a importância do voto responsável e estimular jovens a partir de 16 anos a tirarem seu título de eleitor, promovendo o engajamento cívico e o exercício da cidadania desde cedo.",
-        "indice": "-",
-        "valor-indice": "-",
+        "indice": "",
+        "valor-indice": "",
         "imagem": "/assets/campanhas/capa-campanhas/tiraotituloarmy.jpg",
         "em-alta": true
       }
@@ -116,8 +116,8 @@
         "id": 2,
         "titulo": "BloodToSave",
         "descricao": "A campanha Blood to Save, promovida pelo AHTP, propõe unir essas datas comemorativas e a mensagem do BTS para incentivar a prática de um gesto de solidariedade que também salva vidas.",
-        "indice": "-",
-        "valor-indice": "-",
+        "indice": "",
+        "valor-indice": "",
         "imagem": "/assets/campanhas/capa-campanhas/bloodtosave.jpg",
         "em-alta": true
       },
