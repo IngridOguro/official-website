@@ -1,3 +1,15 @@
+.aviso{
+    margin-top: 1vh;
+    width: 100%;
+    background-color: rgb(203, 138, 235);
+    padding: 1vh;
+}
+
+.aviso a{
+    color: black;
+    font-weight: 700;
+}
+
 #em-alta{
     background-color: var(--ahtp_verde_claro);
     padding: 3vh 0;

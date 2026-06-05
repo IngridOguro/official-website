@@ -13,6 +13,9 @@ export async function EmAlta() {
     }));
 
   return `
+    <div class="aviso">
+      <a>Site em construção.</a>
+    </div>
     <div id="campanhas-titulo">
       <a id="campanhas-titulo-texto">CAMPANHAS</a>
     </div>
